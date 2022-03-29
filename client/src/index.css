@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=JetBrains+Mono&family=Montserrat:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat', serif !important;
+}

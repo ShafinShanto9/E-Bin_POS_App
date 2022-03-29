@@ -27,8 +27,8 @@ export default class DefaultLayout extends React.Component {
             <Layout>
 
                 <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
-                    <div className="logo" />
-                    <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
+                    <div className="logo" > <h3>E-Bin Pos</h3> </div>
+                    <Menu theme="dark" mode="inline" defaultSelectedKeys={window.location.pathname}>
                         <Menu.Item key="/home" icon={<HomeOutlined />}>
                             <Link to='/home'>
                                 Home
